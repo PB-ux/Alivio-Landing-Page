@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-  line-height: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   color: $main-text-color;
 }
 
@@ -12,4 +13,18 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1370px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: $primary1;
+  border: 1px solid $primary1;
+  border-radius: 4px;
+  font-size: 2rem;
+  color: $primary2;
 }
