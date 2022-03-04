@@ -35,6 +35,8 @@
 
   &-login {
     margin-left: auto;
+    display: flex;
+    align-items: center;
     &__link {
       color: $title-text-color;
       font-size: 2rem;
@@ -47,7 +49,11 @@
     }
 
     &__btn {
-      padding: 13px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 51px;
+      padding: 0px 50px;
       transition: opacity 0.3s ease;
 
       &:hover {

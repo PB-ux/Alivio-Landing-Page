@@ -354,7 +354,9 @@ a {
       .header-nav__link:hover {
         color: #01996d; }
   .header-login {
-    margin-left: auto; }
+    margin-left: auto;
+    display: flex;
+    align-items: center; }
     .header-login__link {
       color: #000000;
       font-size: 2rem;
@@ -363,7 +365,11 @@ a {
       .header-login__link:hover {
         color: #01996d; }
     .header-login__btn {
-      padding: 13px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 51px;
+      padding: 0px 50px;
       transition: opacity 0.3s ease; }
       .header-login__btn:hover {
         opacity: 0.8; }
