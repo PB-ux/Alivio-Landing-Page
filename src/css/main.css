@@ -302,3 +302,16 @@ template {
  */
 [hidden] {
   display: none; }
+
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: #484848; }
+
+h1,
+h2,
+h3 {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
