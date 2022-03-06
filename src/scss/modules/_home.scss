@@ -1,0 +1,35 @@
+.home {
+  background: center / cover no-repeat url("../assets/background-header.jpg");
+
+  &__wrapper {
+    padding: 181px 0px 330px 0px;
+  }
+
+  &__content {
+    max-width: 440px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 70px;
+    color: $primary1;
+  }
+
+  &__subtitle {
+    color: $main-text-color;
+    margin-top: 30px;
+    margin-bottom: 53px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 65px;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

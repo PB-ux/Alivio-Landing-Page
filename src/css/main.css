@@ -312,7 +312,8 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0; }
 
 a {
@@ -328,7 +329,13 @@ a {
   border: 1px solid #01996d;
   border-radius: 4px;
   font-size: 2rem;
+  padding: 0px 50px;
   color: #ffffff; }
+
+.text {
+  font-size: 2rem;
+  color: #424242;
+  line-height: 30px; }
 
 .header {
   border-bottom: 1px solid #d6d6d6; }
@@ -369,7 +376,29 @@ a {
       justify-content: center;
       align-items: center;
       min-height: 51px;
-      padding: 0px 50px;
       transition: opacity 0.3s ease; }
       .header-login__btn:hover {
         opacity: 0.8; }
+
+.home {
+  background: center/cover no-repeat url("../assets/background-header.jpg"); }
+  .home__wrapper {
+    padding: 181px 0px 330px 0px; }
+  .home__content {
+    max-width: 440px; }
+  .home__title {
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 70px;
+    color: #01996d; }
+  .home__subtitle {
+    color: #484848;
+    margin-top: 30px;
+    margin-bottom: 53px; }
+  .home__btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 65px;
+    transition: opacity 0.3s ease; }
+    .home__btn:hover {
+      opacity: 0.8; }
