@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@300&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -302,3 +303,102 @@ template {
  */
 [hidden] {
   display: none; }
+
+html {
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #484848; }
+
+h1,
+h2,
+h3,
+p {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  max-width: 1370px;
+  padding: 0px 15px;
+  margin: 0 auto; }
+
+.btn {
+  background: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  font-size: 2rem;
+  padding: 0px 50px;
+  color: #ffffff; }
+
+.text {
+  font-size: 2rem;
+  color: #424242;
+  line-height: 30px; }
+
+.header {
+  border-bottom: 1px solid #d6d6d6; }
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 17px 0px; }
+  .header-nav {
+    margin-left: 172px; }
+    .header-nav__list {
+      display: flex;
+      margin: 0; }
+    .header-nav__item {
+      list-style-type: none;
+      margin-left: 70px; }
+      .header-nav__item:first-child {
+        margin-left: 0px; }
+    .header-nav__link {
+      color: #292929;
+      font-size: 2rem;
+      font-weight: 500;
+      transition: color 0.3s ease; }
+      .header-nav__link:hover {
+        color: #01996d; }
+  .header-login {
+    margin-left: auto;
+    display: flex;
+    align-items: center; }
+    .header-login__link {
+      color: #000000;
+      font-size: 2rem;
+      margin-right: 35px;
+      transition: color 0.3s ease; }
+      .header-login__link:hover {
+        color: #01996d; }
+    .header-login__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 51px;
+      transition: opacity 0.3s ease; }
+      .header-login__btn:hover {
+        opacity: 0.8; }
+
+.home {
+  background: center/cover no-repeat url("../assets/background-header.jpg"); }
+  .home__wrapper {
+    padding: 181px 0px 330px 0px; }
+  .home__content {
+    max-width: 440px; }
+  .home__title {
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 70px;
+    color: #01996d; }
+  .home__subtitle {
+    color: #484848;
+    margin-top: 30px;
+    margin-bottom: 53px; }
+  .home__btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 65px;
+    transition: opacity 0.3s ease; }
+    .home__btn:hover {
+      opacity: 0.8; }
