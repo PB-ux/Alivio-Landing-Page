@@ -332,10 +332,22 @@ a {
   padding: 0px 50px;
   color: #ffffff; }
 
+.title {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 78px;
+  color: #01996d; }
+
 .text {
   font-size: 2rem;
   color: #424242;
-  line-height: 30px; }
+  line-height: 30px;
+  font-weight: 500; }
+
+.caption {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #424242; }
 
 .header {
   border-bottom: 1px solid #d6d6d6; }
@@ -402,3 +414,14 @@ a {
     transition: opacity 0.3s ease; }
     .home__btn:hover {
       opacity: 0.8; }
+
+.how-it-works__wrapper {
+  padding: 175px 0px 51px 0px; }
+
+.how-it-works-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.how-it-works__text {
+  max-width: 650px; }

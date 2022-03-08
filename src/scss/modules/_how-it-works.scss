@@ -1,0 +1,17 @@
+.how-it-works {
+  &__wrapper {
+    padding: 175px 0px 51px 0px;
+  }
+
+  &-header {
+    &-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__text {
+    max-width: 650px;
+  }
+}
