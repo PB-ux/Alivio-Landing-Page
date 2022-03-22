@@ -1,0 +1,128 @@
+.product {
+  padding: 120px 0px 168px 0px;
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    margin-right: 87px;
+    position: relative;
+  }
+
+  &__img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  &__info {
+    max-width: 585px;
+  }
+
+  &__caption {
+    line-height: 40px;
+  }
+
+  &__subtitle {
+    margin-top: 20px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 65px;
+    transition: opacity 0.3s ease;
+    margin-top: 40px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.card {
+  max-width: 300px;
+  background-color: $primary2;
+  border-radius: 4px;
+  box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23px 60px 30px 60px;
+  position: absolute;
+  bottom: -80px;
+  left: -60px;
+
+  &__caption {
+    color: $title-text-color;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+
+    &::after {
+      content: "";
+      height: 0.75px;
+      width: 100%;
+      display: block;
+      background: #000;
+      margin-top: 7px;
+    }
+  }
+
+  &__avatar {
+    margin: 12px 0px 11px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__img {
+    width: 57px;
+    height: 57px;
+    object-fit: cover;
+  }
+
+  &__name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: $title-text-color;
+    text-align: center;
+    margin-bottom: 11px;
+  }
+
+  &__title {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: $title-text-color;
+  }
+
+  &-list {
+    padding: 11px;
+
+    &__item {
+      color: $title-text-color;
+      font-size: 10px;
+      list-style-type: none;
+      margin-bottom: 15px;
+      position: relative;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &::before {
+        content: "";
+        display: block;
+        width: 3px;
+        height: 3px;
+        border-radius: 100%;
+        background-color: #000;
+        position: absolute;
+        bottom: 40%;
+        left: -8px;
+      }
+    }
+  }
+}
