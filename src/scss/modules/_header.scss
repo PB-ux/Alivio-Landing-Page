@@ -39,13 +39,7 @@
     align-items: center;
     &__link {
       color: $title-text-color;
-      font-size: 2rem;
       margin-right: 35px;
-      transition: color 0.3s ease;
-
-      &:hover {
-        color: $primary1;
-      }
     }
 
     &__btn {

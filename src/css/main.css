@@ -349,6 +349,12 @@ a {
   font-weight: 600;
   color: #424242; }
 
+.link {
+  font-size: 2rem;
+  transition: color 0.3s ease; }
+  .link:hover {
+    color: #01996d; }
+
 .header {
   border-bottom: 1px solid #d6d6d6; }
   .header__wrapper {
@@ -378,11 +384,7 @@ a {
     align-items: center; }
     .header-login__link {
       color: #000000;
-      font-size: 2rem;
-      margin-right: 35px;
-      transition: color 0.3s ease; }
-      .header-login__link:hover {
-        color: #01996d; }
+      margin-right: 35px; }
     .header-login__btn {
       display: flex;
       justify-content: center;
@@ -602,3 +604,17 @@ a {
         position: absolute;
         bottom: 40%;
         left: -8px; }
+
+.footer {
+  background-color: #245852;
+  padding: 105px 0px 144px 0px; }
+  .footer-nav__list {
+    margin-top: 75px;
+    padding: 0; }
+  .footer-nav__item {
+    list-style-type: none;
+    margin-bottom: 60px; }
+    .footer-nav__item:last-child {
+      margin-bottom: 0px; }
+  .footer-nav__link {
+    color: #ffffff; }

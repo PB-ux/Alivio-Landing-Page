@@ -1,0 +1,23 @@
+.footer {
+  background-color: $background-section-color;
+  padding: 105px 0px 144px 0px;
+
+  &-nav {
+    &__list {
+      margin-top: 75px;
+      padding: 0;
+    }
+
+    &__item {
+      list-style-type: none;
+      margin-bottom: 60px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+
+    &__link {
+      color: $primary2;
+    }
+  }
+}
