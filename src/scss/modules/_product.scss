@@ -1,6 +1,5 @@
 .product {
   padding: 120px 0px 168px 0px;
-  position: relative;
   &__wrapper {
     display: flex;
     justify-content: center;
@@ -8,6 +7,7 @@
 
   &__item {
     margin-right: 87px;
+    position: relative;
   }
 
   &__img {
@@ -50,8 +50,8 @@
   align-items: center;
   padding: 23px 60px 30px 60px;
   position: absolute;
-  bottom: 100px;
-  left: 40px;
+  bottom: -80px;
+  left: -60px;
 
   &__caption {
     color: $title-text-color;
