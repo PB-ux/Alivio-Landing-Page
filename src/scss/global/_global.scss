@@ -51,3 +51,12 @@ a {
   font-weight: 600;
   color: $info-text-color;
 }
+
+.link {
+  font-size: 2rem;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $primary1;
+  }
+}
